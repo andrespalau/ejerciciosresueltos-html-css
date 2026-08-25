@@ -1,0 +1,23 @@
+/* Selector por etiqueta */
+h1 {
+    color: darkblue;
+    font-size: 36px;
+}
+
+/* Selector por etiqueta */
+p {
+    color: gray;
+    font-size: 18px;
+}
+
+/* Selector por clase */
+.destacado {
+    color: green;
+    font-size: 22px;
+}
+
+/* Selector por id */
+#importante {
+    color: darkred;
+    font-size: 24px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7 — Formularios avanzados</title>
+</head>
+
+<body>
+
+    <h1>Solicitud de ingreso a la universidad</h1>
+
+    <p>
+        Complete la siguiente información para registrar sus datos
+        y seleccionar el programa académico de su interés.
+    </p>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+
+        <p>
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required>
+        </p>
+
+        <p>
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required>
+        </p>
+
+        <p>
+            <label for="edad">Edad:</label><br>
+            <input type="number" id="edad" name="edad" min="15" max="100" required>
+        </p>
+
+        <p>
+            <label for="fecha-nacimiento">Fecha de nacimiento:</label><br>
+            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+        </p>
+
+        <p>
+            <label for="carrera">Programa académico:</label><br>
+            <select id="carrera" name="carrera" required>
+                <option value="">Seleccione una opción</option>
+                <option value="psicologia">Psicología</option>
+                <option value="arquitectura">Arquitectura</option>
+                <option value="medicina-veterinaria">Medicina Veterinaria</option>
+                <option value="comunicacion-social">Comunicación Social</option>
+                <option value="ingenieria-ambiental">Ingeniería Ambiental</option>
+            </select>
+        </p>
+
+        <fieldset>
+            <legend>Seleccione su género</legend>
+
+            <input type="radio" id="masculino" name="genero" value="masculino" required>
+            <label for="masculino">Masculino</label><br>
+
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label><br>
+
+            <input type="radio" id="prefiero-no-decir" name="genero" value="prefiero-no-decir">
+            <label for="prefiero-no-decir">Prefiero no decirlo</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Habilidades o fortalezas</legend>
+
+            <input type="checkbox" id="liderazgo" name="habilidades" value="liderazgo">
+            <label for="liderazgo">Liderazgo</label><br>
+
+            <input type="checkbox" id="creatividad" name="habilidades" value="creatividad">
+            <label for="creatividad">Creatividad</label><br>
+
+            <input type="checkbox" id="comunicacion" name="habilidades" value="comunicacion">
+            <label for="comunicacion">Comunicación</label><br>
+
+            <input type="checkbox" id="resolucion-problemas" name="habilidades" value="resolucion-problemas">
+            <label for="resolucion-problemas">Resolución de problemas</label>
+        </fieldset>
+
+        <p>
+            <label for="foto">Adjuntar fotografía:</label><br>
+            <input type="file" id="foto" name="foto" accept="image/*">
+        </p>
+
+        <p>
+            <label for="comentarios">Información adicional:</label><br>
+            <textarea
+                id="comentarios"
+                name="comentarios"
+                rows="5"
+                cols="40"
+                placeholder="Cuéntanos brevemente por qué deseas ingresar a la universidad..."
+            ></textarea>
+        </p>
+
+        <button type="submit">Enviar información</button>
+
+    </form>
+
+</body>
+</html>

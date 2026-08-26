@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10 - Pseudoclases</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Mi espacio personal</h1>
+
+        <nav class="menu">
+            <a href="#">Inicio</a>
+            <a href="#">Perfil</a>
+            <a href="#">Actividades</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Formulario de contacto</h2>
+
+            <p>
+                Completa los siguientes datos para enviar un mensaje.
+            </p>
+
+            <form>
+                <p>
+                    <label for="nombre">Nombre:</label><br>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Escribe tu nombre"
+                    >
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="Escribe tu correo"
+                    >
+                </p>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Actividades que disfruto</h2>
+
+            <p>
+                Algunas actividades que me parecen interesantes para
+                aprovechar el tiempo libre son:
+            </p>
+
+            <ul class="actividades">
+                <li>Escuchar música</li>
+                <li>Ver películas y series</li>
+                <li>Jugar videojuegos</li>
+                <li>Salir a conocer nuevos lugares</li>
+                <li>Aprender sobre tecnología</li>
+                <li>Compartir con amigos y familiares</li>
+            </ul>
+        </section>
+
+    </main>
+
+</body>
+</html>

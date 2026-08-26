@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+body > p {
+    text-align: center;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.producto {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.producto h2 {
+    font-size: 20px;
+}
+
+.producto p {
+    font-size: 16px;
+}

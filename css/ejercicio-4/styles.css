@@ -1,0 +1,20 @@
+.tarjeta {
+    width: 350px;
+    height: 180px;
+
+    border: 3px solid darkblue;
+
+    padding: 20px;
+
+    margin: 40px;
+
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+}

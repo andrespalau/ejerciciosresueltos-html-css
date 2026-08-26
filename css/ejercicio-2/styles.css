@@ -1,0 +1,35 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: darkblue;
+}
+
+body > p {
+    color: dimgray;
+}
+
+
+.caja {
+    width: 400px;
+    height: 150px;
+}
+
+
+.cine {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+
+.videojuegos {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+
+.viaje {
+    background-color: lightcoral;
+    color: darkred;
+}
